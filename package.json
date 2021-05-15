@@ -1,0 +1,8 @@
+{
+  "name": "prisma-nexus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/laptopisasset/prisma-typescrit-graphql-nexus.git",
+  "author": "Soundhar <laptopisasset@gmail.com>",
+  "license": "MIT"
+}
