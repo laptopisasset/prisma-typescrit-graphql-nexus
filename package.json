@@ -6,14 +6,25 @@
   "author": "Soundhar <laptopisasset@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node script.ts"
+    "dev": "ts-node ./script.ts",
+    "dev:typegraphql": "ts-node ./type-graphql.ts",
+    "dev:nexus": "ts-node-dev ./nexus.ts"
   },
   "devDependencies": {
     "prisma": "2.22.1",
     "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.6",
+    "typegraphql-prisma": "^0.14.2",
     "typescript": "^4.2.4"
   },
   "dependencies": {
-    "@prisma/client": "2.22.1"
+    "@prisma/client": "2.22.1",
+    "apollo-server": "^2.24.0",
+    "class-validator": "^0.13.1",
+    "graphql": "^15.5.0",
+    "graphql-fields": "^2.0.3",
+    "nexus": "^1.0.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
   }
 }

@@ -10,6 +10,10 @@ generator client {
   provider = "prisma-client-js"
 }
 
+generator typegraphql {
+  provider = "typegraphql-prisma"
+}
+
 model User {
   Id    Int     @id @default(autoincrement())
   email String  @unique
